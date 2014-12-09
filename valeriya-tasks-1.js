@@ -1,6 +1,6 @@
 //0. dodavannia elementiv 
-function add (){
- for(var i=1;i<arguments.length;i++){
+function add () {
+ for(var i=1; i<arguments.length; i++) {
   arguments[0]+=arguments[i];
  }
  return arguments[0];
